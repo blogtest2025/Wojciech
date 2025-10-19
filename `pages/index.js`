@@ -1,0 +1,11 @@
+export default function Home() {
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>Moja Pierwsza Aplikacja DZIAŁA! 🎉</h1>
+      <p>To jest prostsza wersja - działa od razu!</p>
+      <button onClick={() => alert('Działa!')}>
+        Kliknij mnie
+      </button>
+    </div>
+  )
+}
